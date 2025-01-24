@@ -20,7 +20,7 @@
             <local:MyCard Title="发送反馈" Margin="0,0,0,15">
                 <StackPanel Margin="20,40,18,18">
                     <local:MyListItem Title="违法违规举报" Info="投诉、举报联机使用者的各类违法违规行为"
-                              Type="Clickable" EventType="打开网页" EventData="https://github.com/PCL-Community/PCL2-CE/issues"
+                              Type="Clickable" EventType="打开网页" EventData="https://github.com/PCL-Community/PCL2-Next/issues"
                               Logo="pack://application:,,,/images/Blocks/RedstoneBlock.png" />
                 </StackPanel>
             </local:MyCard>

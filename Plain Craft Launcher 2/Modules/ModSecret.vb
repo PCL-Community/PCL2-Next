@@ -68,7 +68,7 @@ PCL-Community 及其成员与龙腾猫跃无从属关系，且均不会为您的
     ''' 获取设备标识码。
     ''' </summary>
     Friend Function SecretGetUniqueAddress() As String
-        Dim code As String = "PCL2-CECE-GOOD-2024"
+        Dim code As String = "PCL2-NextCE-GOOD-2024"
         Dim rawCode As String = "4202-DOOG-ECEC-2LCP"
         Try
             If OperatingSystem.IsWindows() Then
@@ -362,7 +362,7 @@ PCL-Community 及其成员与龙腾猫跃无从属关系，且均不会为您的
         Dim LatestVersion As String = Nothing
         RunInNewThread(Sub()
                            Try
-                               LatestReleaseInfoJson = GetJson(NetRequestRetry("https://api.github.com/repos/PCL-Community/PCL2-CE/releases/latest", "GET", "", "application/x-www-form-urlencoded"))
+                               LatestReleaseInfoJson = GetJson(NetRequestRetry("https://api.github.com/repos/PCL-Community/PCL2-Next/releases/latest", "GET", "", "application/x-www-form-urlencoded"))
                                LatestVersion = LatestReleaseInfoJson("tag_name").ToString
                                If Not LatestVersion = VersionBaseName Then
                                    If Not Environment.OSVersion.Version.ToString().Substring(0, 4) = "10.0" AndAlso Not LatestVersion.Substring(0, 4) = "2.9." Then
@@ -382,7 +382,7 @@ PCL-Community 及其成员与龙腾猫跃无从属关系，且均不会为您的
                        End Sub)
     End Sub
     Public Sub UpdateStart(VersionStr As String, Slient As Boolean, Optional ReceivedKey As String = Nothing, Optional ForceValidated As Boolean = False)
-        Dim DlLink As String = "https://github.com/PCL-Community/PCL2-CE/releases/download/" + VersionStr + "/PCL2_CE.exe"
+        Dim DlLink As String = "https://github.com/PCL-Community/PCL2-Next/releases/download/" + VersionStr + "/PCL2_CE.exe"
         Dim DlTargetPath As String = Path + "PCL\Plain Craft Launcher 2.exe"
         RunInNewThread(Sub()
                            Try
