@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Plain Craft Launcher 2", "Plain Craft Launcher 2\Plain Craft Launcher 2.vbproj", "{4499F2D2-18EF-4238-B1F0-7BD547AFF925}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLNext", "PCLNext\PCLNext.csproj", "{41C1AF2B-7E93-4C14-B685-B59D701C4B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLNext.Desktop", "PCLNext.Desktop\PCLNext.Desktop.csproj", "{76FFDC2A-3D50-4D46-96A6-FFD3F0A2750D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Beta|Any CPU = Beta|Any CPU
@@ -21,6 +25,22 @@ Global
 		{4499F2D2-18EF-4238-B1F0-7BD547AFF925}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4499F2D2-18EF-4238-B1F0-7BD547AFF925}.ReleaseUpdate|Any CPU.ActiveCfg = ReleaseUpdate|Any CPU
 		{4499F2D2-18EF-4238-B1F0-7BD547AFF925}.ReleaseUpdate|Any CPU.Build.0 = ReleaseUpdate|Any CPU
+		{41C1AF2B-7E93-4C14-B685-B59D701C4B24}.Beta|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C1AF2B-7E93-4C14-B685-B59D701C4B24}.Beta|Any CPU.Build.0 = Debug|Any CPU
+		{41C1AF2B-7E93-4C14-B685-B59D701C4B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C1AF2B-7E93-4C14-B685-B59D701C4B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C1AF2B-7E93-4C14-B685-B59D701C4B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C1AF2B-7E93-4C14-B685-B59D701C4B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C1AF2B-7E93-4C14-B685-B59D701C4B24}.ReleaseUpdate|Any CPU.ActiveCfg = Release|Any CPU
+		{41C1AF2B-7E93-4C14-B685-B59D701C4B24}.ReleaseUpdate|Any CPU.Build.0 = Release|Any CPU
+		{76FFDC2A-3D50-4D46-96A6-FFD3F0A2750D}.Beta|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FFDC2A-3D50-4D46-96A6-FFD3F0A2750D}.Beta|Any CPU.Build.0 = Debug|Any CPU
+		{76FFDC2A-3D50-4D46-96A6-FFD3F0A2750D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FFDC2A-3D50-4D46-96A6-FFD3F0A2750D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FFDC2A-3D50-4D46-96A6-FFD3F0A2750D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FFDC2A-3D50-4D46-96A6-FFD3F0A2750D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FFDC2A-3D50-4D46-96A6-FFD3F0A2750D}.ReleaseUpdate|Any CPU.ActiveCfg = Release|Any CPU
+		{76FFDC2A-3D50-4D46-96A6-FFD3F0A2750D}.ReleaseUpdate|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
