@@ -1,0 +1,29 @@
+﻿<local:MyPageRight
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:PCL" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" x:Class="PageLinkFeedback"
+    PanScroll="{Binding ElementName=PanBack}">
+    <local:MyScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" x:Name="PanBack">
+        <StackPanel Name="PanMain" Margin="25,25,25,10" Grid.IsSharedSizeScope="True">
+            <local:MyCard Title="关于" Margin="0,0,0,15">
+                <StackPanel Margin="20,40,18,18">
+                    <TextBlock TextWrapping="Wrap" Text="这是一段介绍" 
+                           Margin="0,0,0,3" />
+                    <TextBlock TextWrapping="Wrap" Text="这是另一段介绍" 
+                           Margin="0,0,0,6" />
+                    <local:MyListItem Title="用户协议与隐私政策" Info="查看用户协议与隐私政策文档"
+                              Type="Clickable" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1GJ411x7h7"
+                              Logo="pack://application:,,,/images/Blocks/Grass.png" />
+                </StackPanel>
+            </local:MyCard>
+            <local:MyCard Title="发送反馈" Margin="0,0,0,15">
+                <StackPanel Margin="20,40,18,18">
+                    <local:MyListItem Title="违法违规举报" Info="投诉、举报联机使用者的各类违法违规行为"
+                              Type="Clickable" EventType="打开网页" EventData="https://github.com/PCL-Community/PCL2-CE/issues"
+                              Logo="pack://application:,,,/images/Blocks/RedstoneBlock.png" />
+                </StackPanel>
+            </local:MyCard>
+        </StackPanel>
+    </local:MyScrollViewer>
+</local:MyPageRight>
