@@ -3,7 +3,7 @@
 using Avalonia;
 using Avalonia.ReactiveUI;
 
-namespace PCLNext.Desktop;
+namespace PCL.Next.Desktop;
 
 class AppMain
 {
